@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>404 Page</title>
+    <style>
+    canvas{
+        position: absolute;
+        top: 30px;
+        left: 0;
+        z-index: -1;
+        background-color: rgb(204, 204, 204,0);
+    }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li class="navbar"><img class="coin pointer" src="images/coin-cropped.png" alt="coin-img"><a class="pointer" href="https://www.codedex.io/home">Codédex</a></li>
+            <li class="back-btn"><img class="left-arrow" src="images/left-arrow.png" alt="left-arrow"><a class="nes-btn is-error login" href="https://www.codedex.io/home">Home</a></li>
+        </ul>
+    </nav>
+    <hr class="nav-line">
+
+    <img src="images/background.png" alt="background-image" id="bcimg">
+
+    <div class="background">
+        <h1 class="err text-outline-shadow">ERROR</h1>
+        <h1 id="e404" class="text-outline-shadow">404</h1>
+        <h2 id="err2JS" class="err-2 text-outline-shadow">Page not found</h2>
+        <h1 id="pg-found" class="text-outline-shadow"></h1>
+        <h1 id="tutorial" class="text-outline-shadow-tutorial"></h1>
+
+    </div>
+
+    <div id="containerJS" class="container">
+        <p class="text-design">Check for typos or the Internet connection!</p>
+    </div>
+
+    <canvas id="game"></canvas>
+    <div class="start-game-btn">
+        <button id="buton" onclick="game()" class="nes-btn is-error login">Let's find your page!</button>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
