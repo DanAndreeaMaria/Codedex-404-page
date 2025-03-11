@@ -28,10 +28,10 @@ Bug-Catcher is a browser-based mini-game where players must catch programming er
 
 1. **Canvas setup**
 
-  A simple HTML setup from where you take it and work separate with JavaScript
-  ```HTML
-  <canvas id="game"></canvas>
-  ```
+   A simple HTML setup from where you take it and work separate with JavaScript
+    ```HTML
+    <canvas id="game"></canvas>
+    ```
 
 2. **Arrow moves**
 
