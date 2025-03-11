@@ -50,7 +50,7 @@ Bug-Catcher is a browser-based mini-game where players must catch programming er
       })
   ```
 
-3. Bug spawning
+3. **Bug spawning**
 
    The image is created with ```fx.drawImage``` and then, an infinite loop is checking if the bug is interacting with the player and if not, the bug keeps moving down until it reaches the end of the canvas and disappears.
 
@@ -78,7 +78,7 @@ Bug-Catcher is a browser-based mini-game where players must catch programming er
   ```
   
 
-4. Messages and images stored in arrays
+4. **Messages and images stored in arrays**
 
     ```JavaScript
     let msg=[]
