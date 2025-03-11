@@ -1,6 +1,6 @@
 # Codedex-404-page # 
 
-* I started this challenge with my partner - I didn't work alone on this project! *
+* I started this challenge with my partner - I didn't work alone on this project! 
 
 Bug-Catcher is a browser-based mini-game where players must catch programming errors (bugs) appearing on the screen to earn points. The game is built using HTML5 Canvas, JavaScript and CSS.
 
